@@ -21,7 +21,7 @@ body {
     --dark-red: #d5001f;
     --dark-blue: #0d2481;
     --yellow: #ffd830;
-    --grey: #dbdbde;
+    --grey: #747479;
 }
 
 .flex {
@@ -60,18 +60,21 @@ ul {
     width: auto;
 }
 
-.btn_blue_small{
-    padding: 0.25rem 1rem;
+.btn_blue{
     background-color: var(--main-primary);
     color: var(--light);
 }
+.btn_small{
+    padding: 0.25rem 1rem;
+}
 
-.btn_blue{
+.btn_trial{
     width: 80%;
     padding: 0.5rem;
-    background-color: var(--main-primary);
-    color: var(--light);
-    text-align: center;
+}
+
+.btn_trial30{
+    padding: 0.5rem 2.2rem;
 }
 
 .btn_light {
@@ -79,6 +82,14 @@ ul {
     background-color: var(--light);
     border: 1px solid var(--dark);
     color: var(--dark);
+}
+
+.fa-solid{
+    margin-right: 0.5rem;
+}
+
+.fa-check{
+    color: var(--main-primary);
 }
 
 /* #region header */
@@ -153,10 +164,11 @@ ul {
 .plan_cards{
     justify-content: space-between;
     flex-wrap: nowrap;
+    margin: 3rem 0;
 }
 
 .plan_card{
-    width: 30%;
+    width: 32%;
     border: 1px solid var(--grey);
 }
 
@@ -165,6 +177,44 @@ ul {
     text-align: center;
 }
 
+.plan_type{
+    margin: 2rem 0 1rem 0;
+}
+
+.cost{
+    font-weight: bolder;
+    margin: 1rem 0;
+}
+
+.period{
+    color: var(--grey);
+    margin-bottom: 3rem;
+}
+
+.card_details{
+    margin-bottom: 1rem;
+    flex-flow: row nowrap;
+}
+
+.card_trial{
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.buynow{
+    color: var(--main-primary);
+}
+
+.card_hr{
+    width: 30%;
+    color: var(--grey);
+    margin: 2rem 0;
+}
+
+.recap_card{
+    margin-bottom: 2rem;
+}
 
 /* #endregion main */
 
