@@ -177,7 +177,7 @@ ul {
 
 .plan_cards {
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 3rem 0;
 }
 
@@ -188,6 +188,7 @@ ul {
 }
 
 .plan_maxi_card {
+    margin-top: 3rem;
     width: 100%;
     border: 1px solid var(--grey);
 }
@@ -285,6 +286,11 @@ ul {
     height: 250px;
 }
 
+.debug2{
+    background-color: green;
+    height: 250px;
+}
+
 .business_cards{
     justify-content: space-between;
     flex-flow: row wrap;
@@ -296,6 +302,13 @@ ul {
     height: 100px;
     width: calc(100% / 3);
     border: 3px solid yellow;
+}
+
+.left_team{
+    width: calc(100% / 3);
+    background-color: blue;
+    border: 3px solid yellow;
+    height: 100px;
 }
 /* #endregion main */
 
