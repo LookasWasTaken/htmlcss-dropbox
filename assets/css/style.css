@@ -15,7 +15,8 @@ body {
     --dark: #000000;
     --main-primary: #0162ff;
     --main-secondary: #b4d0e7;
-    --light-green: #a2d39b;
+    --light-green: #749e6e;
+    --lighter-green: #a9e9a1;
     --bordeaux: #61082b;
     --light-blue: #0093ce;
     --light-red: #ff1c1c;
@@ -38,7 +39,7 @@ body {
 .s-container {
     max-width: 1052px;
     width: 65%;
-    margin: 5rem auto auto auto;
+    margin: auto;
 
 }
 
@@ -295,16 +296,6 @@ ul {
     width: 55%;
 }
 
-.debug{
-    background-color: red;
-    height: 250px;
-}
-
-.debug2{
-    background-color: green;
-    height: 100px;
-}
-
 .operations{
     font-size: 2rem;
     text-align: center;
@@ -356,38 +347,83 @@ ul {
     color: var(--bordeaux);
 }
 
-.left_team{
-    width: calc(100% / 3);
-    background-color: blue;
-    height: 100px;
-    flex-wrap: wrap;
-}
-
-.left_team_card{
-    height: 50px;
+.team_card{
     width: calc(100% / 2);
-    background-color: purple;
-    border: 3px solid violet;
+    height: 250px;
+}
+.team{
+    width: calc(100% / 3);
+    flex-wrap: wrap;
 }
 
 .center_team{
-    background-color: black;
-    height: 100px;
     width: calc(100% / 3);
+    flex-flow: wrap column;
+    margin: 4rem;
+    align-items: flex-start;
 }
 
-.right_team{
-    width: calc(100% / 3);
-    background-color: blue;
-    height: 100px;
-    flex-wrap: wrap;
+.center_team > img{
+    width: 50%;
 }
 
-.right_team_card{
-    height: 50px;
-    width: calc(100% / 2);
-    background-color: purple;
-    border: 3px solid green;
+.center_team > h4{
+    margin-top: 4rem;
+}
+
+.team_card > img{
+    width: 50%;
+    text-align: center;
+    filter: invert(1);
+}
+
+.designit{
+    background-color: var(--light-green);
+    box-shadow:0px 0px 0px 10px var(--lighter-green) inset;
+    align-items: center;
+    justify-content: center;
+}
+
+.asu{
+    background-color: var(--bordeaux);
+    align-items: center;
+    justify-content: center;
+}
+
+.uf{
+    background-color: var(--light-blue);
+    align-items: center;
+    justify-content: center;
+}
+
+.topps{
+    background-color: var(--light-red);
+    align-items: center;
+    justify-content: center;
+}
+
+.wbr{
+    background-color: var(--dark-red);
+    align-items: center;
+    justify-content: center;
+}
+
+.hearst{
+    background-color: var(--main-secondary);
+    align-items: center;
+    justify-content: center;
+}
+
+.lp{
+    background-color: var(--dark-blue);
+    align-items: center;
+    justify-content: center;
+}
+
+.cco{
+    background-color: var(--yellow);
+    align-items: center;
+    justify-content: center;
 }
 /* #endregion main */
 
