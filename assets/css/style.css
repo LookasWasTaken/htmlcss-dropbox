@@ -11,6 +11,7 @@ body {
 :root {
     --font-primary: 'Open Sans', sans-serif;
     --light: #e8e9ea;
+    --lighter: #fff;
     --dark: #000000;
     --main-primary: #0162ff;
     --main-secondary: #b4d0e7;
@@ -74,6 +75,7 @@ ul {
 .btn_light {
     color: var(--dark);
     border: 1px solid var(--dark);
+    background-color: var(--lighter);
 }
 
 .btn_small {
@@ -94,6 +96,12 @@ ul {
 
 .btn_partner{
     width: 40%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.btn_banner{
+    width: 30%;
     padding: 0.5rem;
     text-align: center;
 }
@@ -132,6 +140,13 @@ ul {
     color: var(--dark);
 }
 
+.height750{
+    height: 750px;
+}
+
+.height250{
+    height: 250px;
+}
 /* #endregion header */
 
 /* #region main */
@@ -142,7 +157,6 @@ ul {
 
 .bg_main_secondary {
     background-color: var(--main-secondary);
-    height: 750px;
 }
 
 .container>h1 {
@@ -321,13 +335,25 @@ ul {
     margin-bottom: 2rem;
 }
 
-.low_banner{
+.our_clients{
     margin-bottom: 8rem;
 }
 
-.low_banner > h2{
+.our_clients > h2{
     font-size: 3.5rem;
     margin-bottom: 3rem;
+}
+
+.low_banner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.low_banner > h2{
+    width: 70%;
+    font-size: 3rem;
+    margin-right: 2rem;
+    color: var(--bordeaux);
 }
 
 .left_team{
