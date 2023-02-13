@@ -21,7 +21,7 @@ body {
     --dark-red: #d5001f;
     --dark-blue: #0d2481;
     --yellow: #ffd830;
-    --hover-grey: rgba(50, 55, 59, 0.429);
+    --grey: #dbdbde;
 }
 
 .flex {
@@ -35,7 +35,13 @@ body {
 }
 
 .s-container {
+    max-width: 1052px;
     width: 65%;
+    margin: auto;
+}
+
+.card_container{
+    width: 80%;
     margin: auto;
 }
 
@@ -132,6 +138,31 @@ ul {
 .jumbo_text {
     flex-flow: column nowrap;
     gap: 3rem;
+}
+
+.plans {
+    margin-top: 200px;
+}
+
+.s-container > h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 4rem 0;
+}
+
+.plan_cards{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.plan_card{
+    width: 30%;
+    border: 1px solid var(--grey);
+}
+
+.plan_card_head{
+    border-bottom: 1px solid var(--grey);
+    text-align: center;
 }
 
 
