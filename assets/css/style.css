@@ -95,13 +95,13 @@ ul {
     text-align: center;
 }
 
-.btn_partner{
+.btn_partner {
     width: 40%;
     padding: 0.5rem;
     text-align: center;
 }
 
-.btn_banner{
+.btn_banner {
     width: 30%;
     padding: 0.5rem;
     text-align: center;
@@ -141,13 +141,14 @@ ul {
     color: var(--dark);
 }
 
-.height750{
+.height750 {
     height: 750px;
 }
 
-.height250{
+.height250 {
     height: 250px;
 }
+
 /* #endregion header */
 
 /* #region main */
@@ -208,7 +209,7 @@ ul {
     border: 1px solid var(--grey);
 }
 
-.card_maxi{
+.card_maxi {
     margin-bottom: 2rem;
 }
 
@@ -277,154 +278,195 @@ ul {
     margin-bottom: 2rem;
 }
 
-.partners{
+.partners {
     justify-content: space-between;
     margin-bottom: 10rem;
 }
 
-.partners > img{
+.partners>img {
     width: 60%;
 }
 
-.partners_text{
+.partners_text {
     width: 35%;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.partners_text > img{
+.partners_text>img {
     width: 55%;
 }
 
-.operations{
+.operations {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 4rem;
 }
 
-.business_cards{
+.business_cards {
     justify-content: space-between;
     flex-flow: row wrap;
 }
 
-.business_card{
+.business_card {
     width: 30%;
     flex-flow: column wrap;
 }
 
-.business_card_img > img{
+.business_card_img>img {
     width: 100%;
 }
 
-.business_card_text{
+.business_card_text {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
-.business_card_text > h2{
+.business_card_text>h2 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-.our_clients{
+.our_clients {
     margin-bottom: 8rem;
 }
 
-.our_clients > h2{
+.our_clients>h2 {
     font-size: 3.5rem;
     margin-bottom: 3rem;
 }
 
-.low_banner{
+.low_banner {
     justify-content: space-between;
     align-items: center;
 }
 
-.low_banner > h2{
+.low_banner>h2 {
     width: 70%;
     font-size: 3rem;
     margin-right: 2rem;
     color: var(--bordeaux);
 }
 
-.team_card{
+.team_card {
     width: calc(100% / 2);
     height: 250px;
 }
-.team{
+
+.team {
     width: calc(100% / 3);
     flex-wrap: wrap;
 }
 
-.center_team{
+.center_team {
     width: calc(100% / 3);
     flex-flow: wrap column;
     margin: 4rem;
     align-items: flex-start;
 }
 
-.center_team > img{
+.center_team>img {
     width: 50%;
 }
 
-.center_team > h4{
+.center_team>h4 {
     margin-top: 4rem;
 }
 
-.team_card > img{
+.team_card>img {
     width: 50%;
     text-align: center;
     filter: invert(1);
 }
 
-.designit{
+.designit {
     background-color: var(--light-green);
-    box-shadow:0px 0px 0px 10px var(--lighter-green) inset;
+    box-shadow: 0px 0px 0px 10px var(--lighter-green) inset;
     align-items: center;
     justify-content: center;
 }
 
-.asu{
+.asu {
     background-color: var(--bordeaux);
     align-items: center;
     justify-content: center;
 }
 
-.uf{
+.uf {
     background-color: var(--light-blue);
     align-items: center;
     justify-content: center;
 }
 
-.topps{
+.topps {
     background-color: var(--light-red);
     align-items: center;
     justify-content: center;
 }
 
-.wbr{
+.wbr {
     background-color: var(--dark-red);
     align-items: center;
     justify-content: center;
 }
 
-.hearst{
+.hearst {
     background-color: var(--main-secondary);
     align-items: center;
     justify-content: center;
 }
 
-.lp{
+.lp {
     background-color: var(--dark-blue);
     align-items: center;
     justify-content: center;
 }
 
-.cco{
+.cco {
     background-color: var(--yellow);
     align-items: center;
     justify-content: center;
 }
+
+.faq_section{
+    height: 800px;
+}
+
+.faq {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.faq_section > hr{
+    margin: 4rem 0;
+}
+
+.question {
+    font-size: 1rem;
+}
+
+.answer {
+    display: none;
+    margin-top: 1.5rem;
+}
+
+.collapse {
+    padding-right: 3rem;
+}
+
+.collapse .fa-angle-up {
+    display: none;
+}
+
+.faq:hover .answer,
+.faq:hover .fa-angle-up {
+  display: block;
+}
+
+.faq:hover .fa-angle-down {
+  display: none;
+}
+
 /* #endregion main */
 
 /* #region footer */
