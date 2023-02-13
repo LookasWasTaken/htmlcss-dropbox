@@ -291,17 +291,34 @@ ul {
     height: 100px;
 }
 
+.operations{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
 .business_cards{
     justify-content: space-between;
     flex-flow: row wrap;
-    background-color: blue;
 }
 
 .business_card{
-    background-color: blue;
-    height: 100px;
-    width: calc(100% / 3);
-    border: 3px solid yellow;
+    width: 30%;
+    flex-flow: column wrap;
+}
+
+.business_card_img > img{
+    width: 100%;
+}
+
+.business_card_text{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.business_card_text > h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .left_team{
