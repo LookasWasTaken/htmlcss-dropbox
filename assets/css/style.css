@@ -321,6 +321,15 @@ ul {
     margin-bottom: 2rem;
 }
 
+.low_banner{
+    margin-bottom: 8rem;
+}
+
+.low_banner > h2{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
 .left_team{
     width: calc(100% / 3);
     background-color: blue;
