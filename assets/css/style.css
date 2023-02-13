@@ -288,7 +288,7 @@ ul {
 
 .debug2{
     background-color: green;
-    height: 250px;
+    height: 100px;
 }
 
 .business_cards{
@@ -307,8 +307,35 @@ ul {
 .left_team{
     width: calc(100% / 3);
     background-color: blue;
-    border: 3px solid yellow;
     height: 100px;
+    flex-wrap: wrap;
+}
+
+.left_team_card{
+    height: 50px;
+    width: calc(100% / 2);
+    background-color: purple;
+    border: 3px solid violet;
+}
+
+.center_team{
+    background-color: black;
+    height: 100px;
+    width: calc(100% / 3);
+}
+
+.right_team{
+    width: calc(100% / 3);
+    background-color: blue;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.right_team_card{
+    height: 50px;
+    width: calc(100% / 2);
+    background-color: purple;
+    border: 3px solid green;
 }
 /* #endregion main */
 
