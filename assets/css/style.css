@@ -37,15 +37,16 @@ body {
 .s-container {
     max-width: 1052px;
     width: 65%;
-    margin: auto;
+    margin: 5rem auto auto auto;
+
 }
 
-.card_container{
+.card_container {
     width: 80%;
     margin: auto;
 }
 
-.card_maxi_container{
+.card_maxi_container {
     width: 90%;
     margin: auto;
 }
@@ -65,30 +66,43 @@ ul {
     width: auto;
 }
 
-.btn_blue{
+.btn_blue {
     background-color: var(--main-primary);
     color: var(--light);
 }
-.btn_small{
+
+.btn_light {
+    color: var(--dark);
+    border: 1px solid var(--dark);
+}
+
+.btn_small {
     padding: 0.25rem 1rem;
 }
 
-.btn_trial{
+.btn_trial {
     width: 80%;
     padding: 0.5rem;
+    text-align: center;
 }
 
-.btn_contact{
+.btn_contact {
     width: 100%;
     padding: 0.5rem;
     text-align: center;
 }
 
-.fa-solid{
+.btn_partner{
+    width: 40%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.fa-solid {
     margin-right: 0.5rem;
 }
 
-.fa-check{
+.fa-check {
     color: var(--main-primary);
 }
 
@@ -155,92 +169,115 @@ ul {
     margin-top: 200px;
 }
 
-.s-container > h2{
+.s-container>h2 {
     font-size: 3rem;
     font-weight: bolder;
     padding: 4rem 0;
 }
 
-.plan_cards{
+.plan_cards {
     justify-content: space-between;
     flex-wrap: nowrap;
     margin: 3rem 0;
 }
 
-.plan_card{
+.plan_card {
     width: 32%;
     border: 1px solid var(--grey);
     min-height: 900px;
 }
 
-.plan_maxi_card{
+.plan_maxi_card {
     width: 100%;
     border: 1px solid var(--grey);
 }
 
-.card_maxi_left{
+.card_maxi{
+    margin-bottom: 2rem;
+}
+
+.card_maxi_left {
     width: 70%;
     margin: auto;
     flex-flow: column nowrap;
     gap: 1rem;
 }
 
-.card_maxi_right{
+.card_maxi_right {
     width: 25%;
     margin: auto;
 }
 
-.plan_card_head{
+.plan_card_head {
     border-bottom: 1px solid var(--grey);
     text-align: center;
     padding: 1rem 0;
 }
 
-.card_info{
+.card_info {
     max-height: 380px;
 }
 
-.plan_type{
+.plan_type {
     margin: 2rem 0 1rem 0;
 }
 
-.cost{
+.cost {
     font-weight: bolder;
     margin: 1rem 0;
 }
 
-.period{
+.period {
     color: var(--grey);
     margin-bottom: 3rem;
 }
 
-.card_details{
+.card_details {
     margin-bottom: 2rem;
     flex-flow: row nowrap;
 }
 
-.card_details > span{
+.card_details>span {
     min-height: 44px;
 }
 
-.card_trial{
+.card_trial {
     flex-flow: column nowrap;
     align-items: center;
     margin-bottom: 2rem;
 }
 
-.buynow{
+.buynow {
     color: var(--main-primary);
 }
 
-.card_hr{
+.card_hr {
     width: 30%;
     color: var(--grey);
     margin: 2rem 0;
 }
 
-.recap_card{
+.recap_card {
     margin-bottom: 2rem;
+}
+
+.partners{
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.partners > img{
+    width: 60%;
+}
+
+.partners_text{
+    width: 35%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.partners_text > img{
+    width: 55%;
 }
 
 /* #endregion main */
