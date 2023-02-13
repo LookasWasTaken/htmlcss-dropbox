@@ -280,6 +280,23 @@ ul {
     width: 55%;
 }
 
+.debug{
+    background-color: red;
+    height: 250px;
+}
+
+.business_cards{
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: blue;
+}
+
+.business_card{
+    background-color: blue;
+    height: 100px;
+    width: calc(100% / 3);
+    border: 3px solid yellow;
+}
 /* #endregion main */
 
 /* #region footer */
