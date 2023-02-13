@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body {
     font-family: var(--font-primary)
 }
 
-:root{
+:root {
     --font-primary: 'Open Sans', sans-serif;
     --light: #e8e9ea;
     --dark: #000000;
@@ -24,47 +24,51 @@ body {
     --hover-grey: rgba(50, 55, 59, 0.429);
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.container{
+.container {
     max-width: 1152px;
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
-.s-container{
+.s-container {
     width: 65%;
     margin: auto;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-a:hover{
-    background-color: var(--hover-grey);
-}
-
-.link{
+.link {
     text-decoration: none;
     margin: 0 1.5rem;
 
 }
 
-.logo{
+.logo {
     height: 21.6px;
     width: auto;
 }
 
-.btn_blue{
+.btn_blue_small{
     padding: 0.25rem 1rem;
     background-color: var(--main-primary);
     color: var(--light);
 }
 
-.btn_light{
+.btn_blue{
+    width: 80%;
+    padding: 0.5rem;
+    background-color: var(--main-primary);
+    color: var(--light);
+    text-align: center;
+}
+
+.btn_light {
     padding: 0.25rem 1rem;
     background-color: var(--light);
     border: 1px solid var(--dark);
@@ -73,30 +77,63 @@ a:hover{
 
 /* #region header */
 
-.navbar{
+.navbar {
     flex-direction: row;
     justify-content: space-between;
-    background-color: var(--main-orange);
-    height: 90px;
+    background-color: var(--light);
+    height: 70px;
     align-items: center;
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 99;
+    box-shadow: 0 0 5px 0;
 }
 
-.left_menu > ul, .right_menu > ul{
+.left_menu>ul,
+.right_menu>ul {
     justify-content: space-around;
     align-items: center;
 }
 
-.link_head{
+.link_head {
     color: var(--dark);
 }
+
 /* #endregion header */
 
 /* #region main */
+
+#app-main {
+    margin-top: 70px;
+}
+
+.bg_main_secondary {
+    background-color: var(--main-secondary);
+    height: 750px;
+}
+
+.container>h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 4rem 0;
+}
+
+.main_top {
+    color: var(--dark);
+    height: 530px;
+}
+
+.jumbo_img {
+    height: 90%;
+}
+
+.jumbo_text {
+    flex-flow: column nowrap;
+    gap: 3rem;
+}
+
 
 /* #endregion main */
 
