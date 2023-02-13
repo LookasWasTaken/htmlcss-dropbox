@@ -21,4 +21,85 @@ body {
     --dark-red: #d5001f;
     --dark-blue: #0d2481;
     --yellow: #ffd830;
+    --hover-grey: rgba(50, 55, 59, 0.429);
 }
+
+.flex{
+    display: flex;
+}
+
+.container{
+    max-width: 1152px;
+    width: 70%;
+    margin: auto;
+}
+
+.s-container{
+    width: 65%;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    background-color: var(--hover-grey);
+}
+
+.link{
+    text-decoration: none;
+    margin: 0 1.5rem;
+
+}
+
+.logo{
+    height: 21.6px;
+    width: auto;
+}
+
+.btn_blue{
+    padding: 0.25rem 1rem;
+    background-color: var(--main-primary);
+    color: var(--light);
+}
+
+.btn_light{
+    padding: 0.25rem 1rem;
+    background-color: var(--light);
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+/* #region header */
+
+.navbar{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--main-orange);
+    height: 90px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.left_menu > ul, .right_menu > ul{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link_head{
+    color: var(--dark);
+}
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
