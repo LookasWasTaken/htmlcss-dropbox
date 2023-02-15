@@ -24,6 +24,7 @@ body {
     --dark-blue: #0d2481;
     --yellow: #ffd830;
     --grey: #747479;
+    --dark-grey: #6c6c8645;
 }
 
 .flex {
@@ -163,7 +164,8 @@ ul {
 }
 
 .left_menu>ul>li:hover, .right_menu>ul>li:not(.right_menu li:last-of-type):hover {
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 3px solid var(--dark);
+    background-color: var(--dark-grey)
 }
 
 /* #endregion header */
@@ -446,7 +448,7 @@ ul {
 }
 
 .faq_section {
-    height: 800px;
+    padding-bottom: 10rem;
 }
 
 .faq {
@@ -490,7 +492,6 @@ ul {
 
 #app-footer {
     background-color: var(--dark);
-    height: 750px;
 }
 
 .credits {
@@ -512,7 +513,7 @@ ul {
     margin: 1.5rem 0;
 }
 
-#footer_list {
+.footer_list {
     margin: 5rem 0 2.5rem 0;
 }
 
@@ -528,6 +529,7 @@ ul {
 
 .language {
     color: var(--light);
+    padding-bottom: 5rem;
 }
 
 .credits_menu ul>li>a:hover {
